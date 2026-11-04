@@ -11,8 +11,7 @@ An interactive web dashboard built with Python and Dash. Pick one or more fruits
 ## Tech Stack
 
 - Python
-- Dash (including Dash Core Components and HTML components)
-- Plotly (used by Dash for charts)
+- Dash (charts are rendered with Plotly under the hood)
 
 ## Getting Started
 
@@ -53,7 +52,7 @@ fruit-prices-dashboard/
 
 ## Possible Improvements
 
-- Switch to a bar chart, which suits comparing categories better than a line
+- Use a bar chart, which suits comparing categories better than a line
 - Load prices from a CSV file or API instead of hardcoding them
 - Add more fruits, price history over time, or a date filter
 - Add a "select all" option and styling to the layout
